@@ -1,0 +1,47 @@
+{
+  "name": "File-Sharing",
+  "description": "Telegram Bot to Share any Telegram Media.",
+  "keywords": [
+    "telegram",
+    "best",
+    "share",
+    "file"
+  ],
+  "success_url": "https://github.com/X-Gorn/File-Sharing",
+  "website": "https://github.com/X-Gorn",
+  "repository": "https://github.com/X-Gorn/File-Sharing",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "TRACK_CHANNEL": {
+      "description": "Create new private/public channel and get it's id, startswith -100",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "If all: will working for all users (storing files) or fill with your telegram id so that only you can store the files.",
+      "value": "all"
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "stack": "heroku-20",
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
