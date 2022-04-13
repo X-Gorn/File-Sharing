@@ -24,7 +24,7 @@ xbot = Client('File-Sharing', api_id=APP_ID, api_hash=API_HASH, bot_token=BOT_TO
 with xbot:
     xbot_username = xbot.get_me().username  # Better call it global once due to telegram flood id
     print("Bot started!")
-    xbot.send_message(OWNER_ID, "Bot started!")
+    xbot.send_message(int(OWNER_ID), "Bot started!")
 
 
 # Start & Get file
