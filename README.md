@@ -27,8 +27,7 @@ Telegram RoBot to Share any telegram files and get the shareable link.
 
 ## Telegram Support:
 
-[![Channel](https://img.shields.io/badge/TG-Channel-30302f?style=flat&logo=telegram)](https://t.me/xTeamBots)
-[![Group](https://img.shields.io/badge/TG-Group-30302f?style=flat&logo=telegram)](https://t.me/xTeamBotsSupport)
+[![Group](https://img.shields.io/badge/TG-Group-30302f?style=flat&logo=telegram)](https://t.me/WeebProgrammer)
 
 ## Credits, and Thanks to
 
