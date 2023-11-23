@@ -1,4 +1,4 @@
-{
+`{
   "name": "File-Sharing",
   "description": "Telegram Bot to Share any Telegram Media.",
   "keywords": [
@@ -13,19 +13,19 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Your bot token, as a string.",
-      "value": ""
+      "value": "6500977707:AAFJ7qKyEDRI_8LwzG6f2L2Nr07gU7GN4MM"
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "5192060"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "49c1f662566d88d362dd81d194e28aba"
     },
     "TRACK_CHANNEL": {
       "description": "Create new private/public channel and get it's id, startswith -100",
-      "value": ""
+      "value": "-1002018907094"
     },
     "OWNER_ID": {
       "description": "If all: will working for all users (storing files) or fill with your telegram id so that only you can store the files.",
